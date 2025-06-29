@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Drive MP3</title>
+</head>
+<body>
+
+  <button onclick="playSong('https://drive.google.com/uc?export=download&id=YOUR_FILE_ID')">Play Song 3</button>
+
+  <audio id="audioPlayer" controls></audio>
+
+  <script>
+    function playSong(src) {
+      const player = document.getElementById("audioPlayer");
+      player.src = src;
+      player.play();
+    }
+  </script>
+
+</body>
+</html>

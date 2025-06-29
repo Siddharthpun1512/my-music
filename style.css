@@ -1,0 +1,15 @@
+body{
+    background-color: blueviolet;
+
+}
+button{
+    background-color: springgreen;
+    height:70px;
+    width: 70px;
+
+}
+#audioPlayer{
+    width: 30%;
+    height: 20px;
+    background-color: black;
+}
